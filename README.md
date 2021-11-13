@@ -44,11 +44,17 @@ c. python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --te
 ```
 python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --test True  --resume [your trained model path] 
 ```
+Example of sampling images and annotation:
+
+<img src = "./figures/stylegan.jpg" width="80%"/>
+
 or
 ```
 python train_biggan_G_mask.py --exp experiments/biggan/all.json  --test True  --resume [your trained model path] 
 ```
+Example of sampling images and annotation:
 
+<img src = "./figures/biggan.jpg" width="100%"/>
 
 #### 3. Train SOD model
 
@@ -65,6 +71,9 @@ Mask Generator (StyleGAN cat) [https://pan.baidu.com/s/1_yhbGVzH92BEU8P66RtLwg] 
 ## Saliency maps
 
 We also provide saliency maps for comparisons [https://pan.baidu.com/s/1WN613RbPeSzmZiISMymt_Q] (fetch code:b818 )
+
+
+<img src = "./figures/fig1.jpg" width="80%"/>
 
 ## License
 
