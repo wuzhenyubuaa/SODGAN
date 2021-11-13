@@ -51,6 +51,12 @@ python train_biggan_G_mask.py --exp experiments/biggan/all.json  --test True  --
 
 These synthesized data can be used for training off-the-shelf saliency networks.
 
+
+## Pretrained Model
+
+Mask Generator (BigGAN) [https://pan.baidu.com/s/1Nr1OfQq7d_6hakDo8z218A] (fetch code:lb6u )
+Mask Generator (StyleGAN cat) [https://pan.baidu.com/s/1_yhbGVzH92BEU8P66RtLwg] (fetch code: pkw8 )
+
 ## License
 
 For any code dependency related to StyleGAN, StyleGAN2, and BigGAN, the license is under the [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license by NVIDIA Corporation.  To view a copy of this license, visit [LICENSE](https://github.com/NVlabs/stylegan/blob/master/LICENSE.txt ).
