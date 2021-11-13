@@ -73,7 +73,7 @@ Mask Generator (StyleGAN cat) [https://pan.baidu.com/s/1_yhbGVzH92BEU8P66RtLwg] 
 We also provide saliency maps for comparisons [https://pan.baidu.com/s/1WN613RbPeSzmZiISMymt_Q] (fetch code:b818 )
 
 
-##Comparison with state-of-the-art
+## Comparison with state-of-the-art
 
 <img src = "./figures/table1.jpg" width="80%"/>
 
