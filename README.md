@@ -2,7 +2,7 @@
 
 This is the official code and data release for:
 
-#### Semi-Supervised Salient Object Detection via Synthetic Data
+## [Semi-Supervised Salient Object Detection via Synthetic Data] (https://sites.google.com/view/sodgan)
 
 ## Requirements
 
@@ -12,7 +12,7 @@ This is the official code and data release for:
 
 ## Training 
 
-To reproduce paper **Semi-Supervised Salient Object Detection via Synthetic Data**: 
+To reproduce paper **Semi-Supervised Salient Object Detection via Synthetic Data **: 
 
 ```
 cd SODGAN
