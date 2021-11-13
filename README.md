@@ -37,10 +37,14 @@ c. python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --te
 ```
 
 
-#### 2. synthesizing annotation-image pairs  
-
+#### 2. Synthesizing annotation-image pairs  
+```
 python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --test True  --resume [your trained model path] 
-
+```
+or
+```
+python train_biggan_G_mask.py --exp experiments/biggan/all.json  --test True  --resume [your trained model path] 
+```
 
 
 #### 3. Train SOD model
