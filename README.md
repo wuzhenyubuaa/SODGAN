@@ -59,6 +59,10 @@ You can skip the step 1 and use our pretrained model as below: \
 Mask Generator (BigGAN) [https://pan.baidu.com/s/1Nr1OfQq7d_6hakDo8z218A] (fetch code:lb6u ) \
 Mask Generator (StyleGAN cat) [https://pan.baidu.com/s/1_yhbGVzH92BEU8P66RtLwg] (fetch code: pkw8 )
 
+## Saliency maps
+
+We also provide saliency maps for comparisons [https://pan.baidu.com/s/1WN613RbPeSzmZiISMymt_Q] (fetch code:b818 )
+
 ## License
 
 For any code dependency related to StyleGAN, StyleGAN2, and BigGAN, the license is under the [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license by NVIDIA Corporation.  To view a copy of this license, visit [LICENSE](https://github.com/NVlabs/stylegan/blob/master/LICENSE.txt ).
