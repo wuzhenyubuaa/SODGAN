@@ -19,8 +19,8 @@ cd SODGAN
 ```
 
 1. Run **Step1: training mask generator**.  
-3. Run **Step2: synthesizing annotation-image pairs**.
-4. Run **Step3: Train SOD model**.
+2. Run **Step2: synthesizing annotation-image pairs**.
+3. Run **Step3: Train SOD model**.
 
 
 #### 1. Training Mask Generator
@@ -36,6 +36,16 @@ b. Download Dataset from [https://pan.baidu.com/s/1e7SRXVTqTxR3CQJEtq_HFg] (fetc
 c. python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --test False
 ```
 
+
+#### 2. synthesizing annotation-image pairs  
+
+python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --test True  --resume [your trained model path] 
+
+
+
+#### 3. Train SOD model
+
+These synthesized data can be used for training off-the-shelf saliency networks.
 
 ## License
 
