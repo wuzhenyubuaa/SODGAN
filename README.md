@@ -31,9 +31,9 @@ a. Download pretrained model from StyleGAN [https://github.com/NVlabs/stylegan].
 
 b. Download Dataset from [https://pan.baidu.com/s/1e7SRXVTqTxR3CQJEtq_HFg] (fetch code:2nab ). Unzip stylegan datasets into './data/'.You have to revise 'annotation_mask_path', 'testing_path', 'average_latent' of ./experiments/cat_sod.json 
 
-c.
+
 ```
-python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --test False
+c. python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --test False
 ```
 
 
