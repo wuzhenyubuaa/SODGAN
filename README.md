@@ -27,7 +27,7 @@ cd SODGAN
 
 we take training stlyegan as an example:
 
-a. Download pretrained model from StyleGAN [https://github.com/NVlabs/stylegan]. Put pretrained model in  your/path/ and you have revised the path of stylegan_checkpoint in ./experiments/cat_sod.json 
+a. Download pretrained model from StyleGAN [https://github.com/NVlabs/stylegan]. Put pretrained model in  'your/path/' and you have revised the path of 'stylegan_checkpoint' of ./experiments/cat_sod.json 
 
 ```
 python train_stylegan_G_mask.py --exp experiments/<exp_name>.json 
