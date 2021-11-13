@@ -54,7 +54,7 @@ These synthesized data can be used for training off-the-shelf saliency networks.
 
 ## Pretrained Model
 
-Mask Generator (BigGAN) [https://pan.baidu.com/s/1Nr1OfQq7d_6hakDo8z218A] (fetch code:lb6u )
+Mask Generator (BigGAN) [https://pan.baidu.com/s/1Nr1OfQq7d_6hakDo8z218A] (fetch code:lb6u ) \
 Mask Generator (StyleGAN cat) [https://pan.baidu.com/s/1_yhbGVzH92BEU8P66RtLwg] (fetch code: pkw8 )
 
 ## License
