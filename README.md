@@ -5,7 +5,7 @@ This is the official code and data release for:
 ## [Semi-Supervised Salient Object Detection via Synthetic Data](https://sites.google.com/view/sodgan/)
 
 
-<img src = "./figures/fig1.jpg" width="80%"/>
+
 
 ## Requirements
 
