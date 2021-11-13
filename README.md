@@ -19,14 +19,18 @@ cd SODGAN
 ```
 
 1. Run **Step1: training mask generator**.  
-3. Run **Step2: Sampling** to synthesize annotation-image pairs.
+3. Run **Step2: synthesizing annotation-image pairs**.
 4. Run **Step3: Train SOD model**.
 
 
 #### 1. Training Mask Generator
 
+we take training stlyegan as an example:
+
+a. Download pretrained model from StyleGAN [https://github.com/NVlabs/stylegan]. Put pretrained model in  your/path/ and you have revised the path of stylegan_checkpoint in ./experiments/cat_sod.json 
+
 ```
-python train_interpreter.py --exp experiments/<exp_name>.json 
+python train_stylegan_G_mask.py --exp experiments/<exp_name>.json 
 
 
 
