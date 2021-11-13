@@ -46,7 +46,7 @@ python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --test 
 ```
 Example of sampling images and annotation:
 
-<img src = "./figures/stylegan.jpg" width="100%"/>
+<img src = "./figures/stylegan.jpg" width="80%"/>
 
 or
 ```
@@ -54,7 +54,7 @@ python train_biggan_G_mask.py --exp experiments/biggan/all.json  --test True  --
 ```
 Example of sampling images and annotation:
 
-<img src = "./figures/biggan.jpg" width="100%"/>
+<img src = "./figures/biggan.jpg" width="90%"/>
 
 #### 3. Train SOD model
 
@@ -75,7 +75,7 @@ We also provide saliency maps for comparisons [https://pan.baidu.com/s/1WN613RbP
 
 ##Comparison with state-of-the-art
 
-<img src = "./figures/table1.jpg" width="100%"/>
+<img src = "./figures/table1.jpg" width="80%"/>
 
 ## License
 
