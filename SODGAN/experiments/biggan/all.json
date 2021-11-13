@@ -1,0 +1,15 @@
+{
+  "exp_dir": "../saved_model/biggan/model-1",
+  "batch_size": 64,
+  "precess_data": true,
+  "category": "dog",
+  "dim": [256, 256, 7040],
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "annotation_mask_path": "D:/mywork/work6/upload_github/data/biggan/label",
+  "annotation_image_latent_path": "D:/mywork/work6/upload_github/data/biggan/label/latent.npy",
+  "conditional_vec_path": "D:/mywork/work6/upload_github/data/biggan/label/cond_vec.npy",
+  "weight_path": "H:/mywork/pre-trained-model/biggan/256/pytorch_model.bin",
+  "model_num": 1,
+  "upsample_mode":"bilinear"
+ }

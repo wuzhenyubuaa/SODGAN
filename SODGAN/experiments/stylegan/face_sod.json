@@ -1,0 +1,22 @@
+{
+  "exp_dir": "../saved_model/stylegan/face_sod/model-1",
+  "batch_size": 1,
+  "precess_data": false,
+  "category": "face",
+  "debug": false,
+  "dim": [512, 512, 5088],
+  "deeplab_res": 512,
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "max_training": 16,
+  "stylegan_ver": "1",
+  "annotation_data_from_w": false,
+  "annotation_mask_path": "D:/mywork/work6/upload_github/data/stylegan/annotation/training_data/face_sod",
+  "testing_path": "D:/mywork/work6/upload_github/data/stylegan/annotation/testing_data/face_sod",
+  "average_latent": "D:/mywork/work6/upload_github/data/stylegan/training_latent/face_34/avg_latent_stylegan1.npy",
+  "annotation_image_latent_path": "D:/mywork/work6/upload_github/data/stylegan/training_latent/face_34/latent_stylegan1.npy",
+  "stylegan_checkpoint": "H:/mywork/pre-trained-model/stylegan/karras2019stylegan-celebahq-1024x1024.for_g_all.pt",
+  "model_num": 1,
+    "upsample_mode":"bilinear"
+}
+

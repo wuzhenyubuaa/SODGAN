@@ -1,0 +1,22 @@
+{
+  "exp_dir": "../saved_model/stylegan/car/model-1",
+  "batch_size": 1,
+  "precess_data": false,
+  "category": "car",
+  "debug": false,
+  "dim": [384, 512, 5056],
+  "deeplab_res": 512,
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "max_training": 32,
+  "stylegan_ver": "1",
+  "annotation_data_from_w": false,
+  "annotation_mask_path": "D:/mywork/work6/upload_github/data/stylegan/annotation/training_data/car_sod",
+  "testing_path": "D:/mywork/work6/upload_github/data/stylegan/annotation/testing_data/car_sod",
+  "average_latent": "D:/mywork/work6/upload_github/data/stylegan/training_latent/car_20/avg_latent_stylegan1.npy",
+  "annotation_image_latent_path": "D:/mywork/work6/upload_github/data/stylegan/training_latent/car_20/latent_stylegan1.npy",
+  "stylegan_checkpoint": "H:/mywork/pre-trained-model/stylegan/karras2019stylegan-cars-512x384.for_g_all.pt",
+  "model_num": 1,
+    "upsample_mode":"bilinear"
+}
+

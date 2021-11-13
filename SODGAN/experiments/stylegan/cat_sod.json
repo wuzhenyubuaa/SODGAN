@@ -1,0 +1,21 @@
+{
+  "exp_dir": "../saved_model/stylegan/cat/model-1",
+  "batch_size": 64,
+  "precess_data": false,
+  "category": "cat",
+  "debug": false,
+  "dim": [256, 256, 4992],
+  "deeplab_res": 256,
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "max_training": 30,
+  "stylegan_ver": "1",
+  "annotation_data_from_w": false,
+  "annotation_mask_path": "D:/mywork/work6/upload_github/data/stylegan/annotation/training_data/cat_sod",
+  "testing_path": "D:/mywork/work6/upload_github/data/stylegan/annotation/testing_data/cat_sod",
+  "average_latent": "D:/mywork/work6/upload_github/data/stylegan/training_latent/cat_16/avg_latent_cat.npy",
+  "annotation_image_latent_path": "D:/mywork/work6/upload_github/data/stylegan/training_latent/cat_16/latent_stylegan1.npy",
+  "stylegan_checkpoint": "H:/mywork/pre-trained-model/stylegan/karras2019stylegan-cats-256x256.for_g_all.pt",
+  "model_num": 1,
+  "upsample_mode":"bilinear"
+ }
