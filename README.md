@@ -29,9 +29,12 @@ we take training stlyegan as an example:
 
 a. Download pretrained model from StyleGAN [https://github.com/NVlabs/stylegan]. Put pretrained model in  'your/path/' and you have revised the path of 'stylegan_checkpoint' of ./experiments/cat_sod.json 
 
-```
-python train_stylegan_G_mask.py --exp experiments/<exp_name>.json 
+b. Download Dataset from [https://pan.baidu.com/s/1e7SRXVTqTxR3CQJEtq_HFg] (fetch code:2nab ). Unzip stylegan datasets into './data/'
 
+c.
+```
+python train_stylegan_G_mask.py --exp experiments/stylegan/cat_sod.json  --test False
+```
 
 
 ## License
