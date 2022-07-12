@@ -2,7 +2,7 @@
 
 This is the official code and data release for:
 
-## [Synthetic Data Supervised Salient Object Detection](https://sites.google.com/view/sodgan/)
+## [Synthetic Data Supervised Salient Object Detection](https://sites.google.com/view/sodgan/), Accepted by ACM Multimedia 2022
 
 
 
