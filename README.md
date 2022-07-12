@@ -15,7 +15,7 @@ This is the official code and data release for:
 
 ## Training 
 
-To reproduce paper **Semi-Supervised Salient Object Detection via Synthetic Data **: 
+To reproduce paper **Synthetic Data Supervised Salient Object Detection via **: 
 
 ```
 cd SODGAN
