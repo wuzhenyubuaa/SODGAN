@@ -2,7 +2,7 @@
 
 This is the official code and data release for:
 
-## [Semi-Supervised Salient Object Detection via Synthetic Data](https://sites.google.com/view/sodgan/)
+## [Synthetic Data Supervised Salient Object Detection](https://sites.google.com/view/sodgan/)
 
 
 
